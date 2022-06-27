@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;1,700&family=Open+Sans:wght@300;400;500&family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  }
+body{
+  background-color:white;  
+  }
+
+  @font-face {
+    font-family: 'pluto_sans_cond_heavy_italic';
+    font-style: normal;
+    font-weight: normal;
+    font-display:auto;
+    src:local('pluto_sans_cond_heavy_italic'),
+      url('/assets/fontes/utilizadas/pluto_sans_cond_heavy_italic/Pluto Sans Cond Heavy Italic.otf') format('OpenType');
+  }
+
+:root{
+  --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+}
+
+
+.menu{
+background-color:#800000;
+display: flex;
+align-items: center;
+padding: 1rem;
+justify-content: space-between;
+width: 100vw;
+height: 5vh;
+}
+
+.itens-menu{
+  display: flex;
+  margin-left: 1.5rem;
+}
+
+.lista-emp{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  list-style: none;
+  font-family: 'pluto sans';
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.lista-emp:hover{
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.open{
+  display: flex;
+  width: 25px;
+  height: 25px;
+ 
+}
+
+.close{ 
+  display: flex;
+  width: 25px;
+  height: 25px;
+  margin-right: 4.5rem;
+}
+
+nav.menu{
+  opacity: 1;
+  visibility: visible;
+}
+
+nav.menu.show{
+  opacity: 1;
+  visibility: visible;
+  color: #800000;
+  background: grey;
+  width: 94rem;
+}
+
+.title{
+  font-family: 'pluto sans';  
+  color: rgb(10,5,5);
+  font-weight: bold;
+  color: #585858;
+  margin-top: 2rem;
+  width: 80%;
+  height: 3.2rem;
+  margin-left: 10%;
+  border: 0.5px solid gray;
+  display: flex;
+  justify-content: center;
+  place-items: center;  
+}
+
+#container{  
+  display: flex ;
+  flex-direction: row;
+  align-items: center;
+  height: 50%;
+  width: 30%;
+  padding: 0.5rem;
+  margin-left: 8.5%; 
+  }
+
+
+
+label{
+  font-family: 'pluto sans';
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #585858;
+  font-variant-caps: all-petite-caps;   
+  margin-left: 1.2rem; 
+}
+
+input{
+  height: 1.875rem;
+  width: 10.7rem;
+  color: #585858;
+  font-size: 1rem;
+  text-align: center;
+  border: 2px solid gray; 
+  margin-left: 1.2rem;   
+}
+
+select{
+  height: 2.15rem;
+  width: 12.5rem;
+  color: #585858;
+  border: 2px solid gray;
+  font-family: 'pluto sans';
+  font-size: 1rem;
+  text-align: left;
+  border-width: 2px;
+  margin-left: 1.2rem;   
+}
+
+.botao{
+  height: 2.2rem;
+  width: 8rem;
+  margin-top: 1.5rem;
+  margin-left: 1.2rem;
+  font-family: "pluto sans";
+  background: #800000;
+  border: none;
+  color: white;
+}
+
+.botao2{
+  height: 2.2rem;
+  width: 8rem;
+  margin-top: 1.5rem;
+  margin-left: 1.2rem;
+  font-family: "pluto sans";
+  font-weight: 700;
+  color: #800000;
+  border: #800000 solid;
+  background: white;
+}
+
+.botao:hover{
+  background: #971919;
+  text-decoration: underline;
+}
+  
+ 
+.botao2:hover{
+    background:#800000 ;
+    color: white; 
+    text-decoration: underline;
+  }  
+
+ 
